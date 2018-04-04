@@ -96,14 +96,14 @@ export default {
   @include panel;
   .content{
     .item{
-      .list{
-        @include flex(row);
-        margin-bottom: 40px;
-        >img{
+      >img{
           display: block;
           width: 100%;
           height: 170px;
         }
+      .list{
+        @include flex(row);
+        margin-bottom: 40px;
         .product{
           width:50%;
           height: 396px;
